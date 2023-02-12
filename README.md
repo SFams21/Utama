@@ -1,8 +1,8 @@
-# MinecraftPurpleTheme
+# PanelPurpleTheme
 
 Install script:
 ```sh
-bash <(curl https://raw.githubusercontent.com/KurrXd/Utama/main/install.sh)
+bash <(curl https://raw.githubusercontent.com/SFams21/Utama/main/install.sh)
 ```
 
 Screenshots:
