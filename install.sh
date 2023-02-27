@@ -29,7 +29,7 @@ installTheme(){
     yarn
 
     cd /var/www/pterodactyl
-    yarn build:production
+    yarn run watch
     sudo php artisan optimize:clear
 
 
@@ -57,7 +57,7 @@ restoreBackUp(){
     rm Utamabackup.tar.gz
 
     cd /var/www/pterodactyl
-    yarn build:production
+    yarn run watch
     sudo php artisan optimize:clear
 }
 echo "SCRIPT BY RIYAN SIPAYUNG"
